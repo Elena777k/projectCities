@@ -1,4 +1,4 @@
-package src.main.java.org.example;
+package org.example;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ public class CityGame {
     private static ArrayList<String> usedCities = new ArrayList<>();
 
     public static void main(String[] args) {
-        String fileName = "D:\\HomeWork\\Project\\projectCities\\cityLibrary\\cit.txt";
+        String fileName = "D:\\HomeWork\\projectCities\\projectCities\\src\\main\\java\\org\\example\\cit.txt";
         CityGame game = new CityGame();
         game.loadCitiesFromFile(fileName);
     }

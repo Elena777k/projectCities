@@ -1,10 +1,10 @@
-package src.main.java.org.example;
+package org.example;
+
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 
 public class Cities {
 
@@ -54,7 +54,7 @@ public class Cities {
             public void actionPerformed(ActionEvent e) {
                 startFrame.dispose();
 
-                JFrame gameFrame = new JFrame("\u041C\u0456\u0441\u0442\u0430");
+                JFrame gameFrame = new JFrame("Вітаємо");
                 gameFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 gameFrame.setSize(400,500);
                 gameFrame.setLocationRelativeTo(null);
@@ -73,7 +73,7 @@ public class Cities {
                 countAnswer.setForeground(ModalColors.PURPLE.getColor());
                 countAnswer.setEditable(false);
 
-                JButton nextButton = new JButton("\u0417\u0440\u043E\u0431\u0438\u0442\u0438 \u0445\u0456\u0434");
+                JButton nextButton = new JButton("Вітаємо Вас у грі дитинства і всіх розумників!");
                 nextButton.setSize(50,50);
                 nextButton.setFont(new Font("Arial", Font.ITALIC,16));
                 nextButton.setForeground(ModalColors.PURPLE.getColor());
